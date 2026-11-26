@@ -1,0 +1,74 @@
+7767517
+72 73
+Input source 0 1 data
+Split split 1 2 data rgb skip
+Convolution conv0 1 1 rgb layer0 0=64 1=3 4=1 5=1 6=1728
+PReLU prelu1 1 1 layer0 layer1 0=64
+Convolution conv2 1 1 layer1 layer2 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu3 1 1 layer2 layer3 0=64
+Convolution conv4 1 1 layer3 layer4 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu5 1 1 layer4 layer5 0=64
+Convolution conv6 1 1 layer5 layer6 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu7 1 1 layer6 layer7 0=64
+Convolution conv8 1 1 layer7 layer8 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu9 1 1 layer8 layer9 0=64
+Convolution conv10 1 1 layer9 layer10 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu11 1 1 layer10 layer11 0=64
+Convolution conv12 1 1 layer11 layer12 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu13 1 1 layer12 layer13 0=64
+Convolution conv14 1 1 layer13 layer14 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu15 1 1 layer14 layer15 0=64
+Convolution conv16 1 1 layer15 layer16 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu17 1 1 layer16 layer17 0=64
+Convolution conv18 1 1 layer17 layer18 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu19 1 1 layer18 layer19 0=64
+Convolution conv20 1 1 layer19 layer20 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu21 1 1 layer20 layer21 0=64
+Convolution conv22 1 1 layer21 layer22 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu23 1 1 layer22 layer23 0=64
+Convolution conv24 1 1 layer23 layer24 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu25 1 1 layer24 layer25 0=64
+Convolution conv26 1 1 layer25 layer26 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu27 1 1 layer26 layer27 0=64
+Convolution conv28 1 1 layer27 layer28 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu29 1 1 layer28 layer29 0=64
+Convolution conv30 1 1 layer29 layer30 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu31 1 1 layer30 layer31 0=64
+Convolution conv32 1 1 layer31 layer32 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu33 1 1 layer32 layer33 0=64
+Convolution conv34 1 1 layer33 layer34 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu35 1 1 layer34 layer35 0=64
+Convolution conv36 1 1 layer35 layer36 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu37 1 1 layer36 layer37 0=64
+Convolution conv38 1 1 layer37 layer38 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu39 1 1 layer38 layer39 0=64
+Convolution conv40 1 1 layer39 layer40 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu41 1 1 layer40 layer41 0=64
+Convolution conv42 1 1 layer41 layer42 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu43 1 1 layer42 layer43 0=64
+Convolution conv44 1 1 layer43 layer44 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu45 1 1 layer44 layer45 0=64
+Convolution conv46 1 1 layer45 layer46 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu47 1 1 layer46 layer47 0=64
+Convolution conv48 1 1 layer47 layer48 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu49 1 1 layer48 layer49 0=64
+Convolution conv50 1 1 layer49 layer50 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu51 1 1 layer50 layer51 0=64
+Convolution conv52 1 1 layer51 layer52 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu53 1 1 layer52 layer53 0=64
+Convolution conv54 1 1 layer53 layer54 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu55 1 1 layer54 layer55 0=64
+Convolution conv56 1 1 layer55 layer56 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu57 1 1 layer56 layer57 0=64
+Convolution conv58 1 1 layer57 layer58 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu59 1 1 layer58 layer59 0=64
+Convolution conv60 1 1 layer59 layer60 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu61 1 1 layer60 layer61 0=64
+Convolution conv62 1 1 layer61 layer62 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu63 1 1 layer62 layer63 0=64
+Convolution conv64 1 1 layer63 layer64 0=64 1=3 4=1 5=1 6=36864
+PReLU prelu65 1 1 layer64 layer65 0=64
+Convolution conv66 1 1 layer65 layer66 0=48 1=3 4=1 5=1 6=27648
+PixelShuffle shuffle 1 1 layer66 residual 0=4
+Interp nearest 1 1 skip baseline 0=1 1=4.0 2=4.0
+BinaryOp add 2 1 residual baseline output 0=0
