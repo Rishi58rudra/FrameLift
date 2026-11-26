@@ -8,8 +8,8 @@ Get the installer and portable builds from [Releases](https://github.com/Rishi58
 
 | Platform | Download | Start |
 |---|---|---|
-| Windows x64 | `FrameLift-Setup-x64.exe` | Run Setup, then launch FrameLift from Start. The installer is unsigned, so Windows Application Control may block it. |
-| Windows x64 | `FrameLift-Windows-x64.zip` | Extract the ZIP. Run `Open FrameLift.cmd` or install for your account with `Install FrameLift.cmd`. The package includes Python and FFmpeg. |
+| Windows x64 (recommended) | `FrameLift-Windows-x64.zip` | Extract the whole ZIP. Run `Install FrameLift.cmd` and launch FrameLift from Start, or run `Open FrameLift.cmd` for portable use. Python and FFmpeg are included. |
+| Alternative Windows EXE | `FrameLift-Setup-x64.exe` | Windows Application Control may block this unsigned installer with **Unknown publisher**. Use the ZIP install if that happens. |
 | macOS / Linux | `FrameLift-macOS-Linux.zip` | Extract the ZIP and follow its README. Python with Tk and FFmpeg are required. |
 
 ## Use FrameLift
